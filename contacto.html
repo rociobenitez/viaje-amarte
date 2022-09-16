@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contacto</title>
+
+  <meta name="description" content="Somos fotógrafas profesionales en Murcia. Estamos especializadas en fotografía de bodas y parejas. Podéis contactar con nosotras, seguro que podemos ayudaros y hacer algo bonito juntos">
+  <meta name="keywords" content="fotografía, boda, bodas, preboda, posboda, wedding, fotografia profesional, parejas, fotografo, murcia, amor, reportaje, fotos, sesion de fotos, eventos, photographer, photography">
+  <meta name="author" content="Rocío Benítez García">
+  <meta name="copyright" content="Todos los derechos reservados a Rocío Benítez García">
+  <meta name="reply-to" content="rocio_bg22@alumnos.cei.es">
+  <meta name="title" content="Viaje aMarte">
+  <link rel="icon" href="/rsc/img/favicon.png">
+
+  <!-- /// Open Graph /// -->
+  <meta property="og:locale" contenido="es_ES">
+  <meta property="og:type" contenido="website">
+  <meta property="og:title" contenido="Viaje a Marte | Web de fotografía">
+  <meta property="og:description" contenido="Somos fotógrafas profesionales en Murcia. Estamos especializadas en fotografía de bodas y parejas. Podéis contactar con nosotras, seguro que podemos ayudaros y hacer algo bonito juntos">
+  <meta property="og:url" contenido="https://viajeamartefotografia.com">
+  <meta property="og:site_name" contenido="Viaje aMarte">
+  <meta property="og:imagen" contenido="http://www.viajeamartefotografia.com/src/img/logo-negro.png">
+
+  <!-- /// Link CSS /// -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="stylesheet" href="css/responsive.css" type="text/css">
+
+  <!-- /// JavaScript /// -->
+  <script src="http://code.jquery.com/jquery-3.2.1.slim.min.js"
+   integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous">
+  </script>
+  <script src="js/scripts.js"></script>
+
+</head>
+<body class="contacto">
+  <div class="container">
+    <!-- /////// Header /////// -->
+    <header>
+      <!-- /////// Logo /////// -->
+      <div class="logoheader">
+        <a href="index.html">
+          <img class="logo" src="rsc/img/logo-blanco.png" alt="logo de viaje aMarte">
+        </a>
+      </div>
+      <!-- /// Menú hamburguesa /// -->
+      <div id="hamburguer" >
+        <a href="#" id="menu_on">
+          <span></span>
+          <span></span>
+          <span></span>
+        </a>
+      </div>
+      <!-- /////// Navegador Web /////// -->
+      <nav class="navweb">
+        <ul class="navegador">
+          <li><a href="home.html" class="bar-item">HOME</a></li>
+          <li><a href="viajes/index.html" class="bar-item">VIAJES</a></li>
+          <li><a href="equipo.html" class="bar-item">EQUIPO</a></li>
+          <li class="active"><a href="contacto.html" class="bar-item">CONTACTO</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <!-- /////// Navegador /////// -->
+    <nav class="navPrincipal">
+      <ul>
+        <li><a href="home.html" class="bar-item">HOME</a></li>
+        <li><a href="viajes/index.html" class="bar-item">VIAJES</a></li>
+        <li><a href="equipo.html" class="bar-item">EQUIPO</a></li>
+        <li><a href="contacto.html" class="bar-item">CONTACTO</a></li>
+      </ul>
+    </nav>
+
+    <!-- /////// Scroll to top /////// -->
+    <button onclick="topFunction()" id="myBtn" title="Ir arriba">&#x25B2</button>
+
+    <!-- /// Main /// -->
+    <main class="contacto">
+      <p>Antes de seguir,<br><em>¡gracias por llegar hasta aquí!</em></p><br><br>
+      <h3>CONTADNOS LO QUE TENÉIS EN MENTE</h3>
+      <form method="" action="">
+        <label for="nombre">Nombres de la pareja:</label><br>
+        <input type="text" name="nombres" id="nombres" placeholder="Escribid aquí vuestos nombres" required>
+        <label for="email">Correo electrónico:</label><br>
+        <input type="email" name="email" id="email" placeholder="micorreo@ejemplo.com" required>
+        <label for="tel">Teléfono:</label><br>
+        <input type="tel" name="tel" id="tel" placeholder="Ej: 612345678" required>
+        <label for="typephoto">Tipo de fotografía:</label><br>
+        <select id="typephoto" name="typephoto" required>
+          <option value="0" selected>...</option>
+          <option value="boda">Boda</option>
+          <option value="preboda">Pre-boda / Post-boda</option>
+          <option value="packboda">Pack completo Boda</option>
+          <option value="packpareja">Pack pareja</option>
+          <option value="packfamilia">Pack familia</option>
+        </select><br>
+        <label for="fecha">Fecha de la boda o evento:</label><br>
+        <input type="date" name="fecha" id="fecha">
+        <label for="lugar">Lugar de la boda o evento:</label><br>
+        <input type="text" name="lugar" id="lugar" placeholder="Dónde tendríamos que vernos o hacer las fotos" required>
+        <label for="details">Contadnos más detalles:</label><br>
+        <textarea placeholder="Queremos saber un poquito más de vosotros y de lo que os gustaría capturar con la fotografía." name="details" id="details" required></textarea>
+        <input type="submit" value="Enviar">
+      </form>
+      <div>
+        <p>Contactaremos con vosotros en la mayor brevedad posible.</p>
+        <p>También somos muy sociables...</p>
+        <div class="social">
+            <a href="#"><img src="rsc/img/instagram.png" alt="logo instagram"></a>
+            <a href="#"><img src="rsc/img/facebook.png" alt="logo instagram"></a>
+            <a href="#"><img src="rsc/img/whatsapp.png" alt="logo instagram"></a>
+        </div>
+        <!-- No están enlazados los botones porque la marca no tiene aún RRSS -->
+      </div>
+   	</main>
+    
+    <!-- /// Footer /// -->
+    <footer id="footer" class="year">
+      <small>Copyright &copy; 2021. Viaje aMarte. All Rights Reserved</small>
+    </footer> 
+  </div>
+
+  <script src="js/btn.js"></script>
+
+</body>
+</html>
